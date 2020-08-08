@@ -1,0 +1,34 @@
+#highScoresList {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 4rem;
+  }
+  
+  .high-score {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .high-score:hover {
+    transform: scale(1.025);
+  }
+  body
+{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden;
+}
+#highScores{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+   flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
